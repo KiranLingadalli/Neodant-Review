@@ -1,0 +1,1062 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+   text-decoration: none;
+    list-style: none;
+    
+}
+h1,h2,h3,h4,p{
+    margin-bottom: 0 !important;
+}
+
+
+/* choose quality */
+.choose-quality{
+   position: relative;
+    background-image: url(./Mask\ Group\ \(4\).png) ;
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+  
+}
+.dotted-circle{
+
+    position: absolute;
+    right: 2%;
+    top: 43%;
+}
+.overlay{
+   
+    background: linear-gradient(89.9deg, #340340 6.81%, rgba(52, 3, 64, 0.75) 43.37%, rgba(52, 3, 64, 0) 82.17%, rgba(52, 3, 64, 0) 99.92%);
+    opacity: 0.9;
+   
+}
+
+.text-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    
+}
+.text-main{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-direction: column;
+}
+.button-images{
+    margin-top: 24px;
+}
+.text-main h2{
+    font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+
+}
+.text-main h1{
+    font-weight: 600;
+font-size: 56px;
+line-height: 68px;
+
+color: #FFFFFF;
+
+}
+.text-main p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+color: #FFFFFF;
+
+}
+
+.view-btn{
+    margin-top: 40px;
+    padding: 16px 48px;
+    font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #5D2354;
+background: #FFFFFF;
+border-style: none;
+}
+
+.overlap-imgs{
+    display: flex;
+    position: relative;
+   
+}
+
+.image-2{
+    position: absolute;
+    left: 3%;
+}
+.image-3{
+    position: absolute;
+    left: 7%;
+}
+.image-4{
+    position: absolute;
+    left: 11%;
+}
+
+.image-5{
+    position: absolute;
+    left: 15%;
+    border-radius: 50%;
+    z-index: -1;
+    background: #833177;
+    font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+display: flex;
+align-items: center;
+padding: 14px 16px;
+color: #FFFFFF;
+
+}
+/* Outstanding */
+.outstanding-bg{
+    background: #5D2354;
+    position: relative;
+}
+.outstanding-img{
+    position: absolute;
+    right: 0;
+}
+
+.out-quality{
+    padding: 100px 0;
+}
+.head-text h2{
+    font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+color: #FFFFFF;
+
+}
+.main-head{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 72px;
+}
+.bdr-left{
+    width: 6px;
+    height: 103.67px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.head-text{
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+
+}
+
+.head-text p{
+    font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #A9A9A9;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.main-body{
+    display: flex;
+    background: #8E6587;
+    border-radius: 50px 0 0 50px;
+}
+.text{
+    padding: 16px 53px 16px 30px;
+}
+.text-2{
+    display: flex;
+    align-items: center;
+}
+.text-2 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    
+}
+.text p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+
+color: #FFFFFF;
+
+}
+
+
+
+/* neo buttons */
+
+.neo-btns-bg{
+    position: relative;
+    /* background: #EBEBEB;
+opacity: 0.3; */
+
+}
+.dots{
+    position: absolute;
+    top: 38%;
+}
+.neo-info{
+    padding-top: 121px;
+}
+#neo-content-info{
+    padding-bottom: 80px;
+}
+.btn-text p{
+    font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+
+color: #833177;
+}
+#neodent p{
+    
+color: #FFFFFF;
+}
+.btn-body{
+   
+    background: #EBDEE9;
+   height: 78px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 13px;
+}
+#neodent-body{
+    background: #833177;
+}
+
+
+.bord-left{
+    width: 6px;
+height: 98px;
+
+background: #833177;
+border-radius: 10px;
+}
+
+.neo-top-head{
+    display: flex;
+    gap: 18px;
+
+}
+.neo-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.neo-text p{
+    font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #A9A9A9;
+
+
+}
+.neo-text h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.neo-para p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+margin-top: 40px;
+    margin-left: 16px;
+    color: #333333;
+}
+
+
+
+
+/* neodent facts */
+
+
+.neofacts-bg{
+    background: linear-gradient(115.17deg, rgba(131, 49, 119, 0.25) 0.7%, rgba(131, 49, 119, 0.05) 100%);
+/* opacity: 0.8; */
+position: relative;
+}
+.neofacts-img{
+    position: absolute;
+    right: 0;
+   
+}
+.neo-head{
+    margin-bottom: 75px;
+}
+.neofacts-content{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    margin-bottom: 39px;
+}
+.facts-info{
+    position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.facts-img{
+    position: absolute;
+    left: 0;
+    padding: 23px 24px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+}
+.facts-text{
+    padding: 0 24px 0 102px;
+    display: flex;
+   
+    align-items: center;
+    background: #FFFFFF;
+    width: 500px;
+height: 114px;
+}
+.facts-text p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #030303;
+}
+#bdr-left{
+    background: #833177;
+}
+#head-text h2{
+    color: #000000;
+}
+
+
+/* our top practitioners */
+.our-practitioners{
+    padding-top: 109px;
+    padding-bottom: 78px;
+   
+}
+.top-practitioners{
+    position: relative;
+}
+.circle-image{
+    position: absolute;
+    top: 6%;
+    z-index: -1;
+}
+
+.right-circle{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: -1;
+}
+.ask-doctors{
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+.doctors-content{
+    position: relative;
+}
+.commas{
+    position: absolute;
+    top: 25%;
+}
+.doctors-img img{
+    width: 100%;
+}
+.bar{
+    width: 6px;
+height: 49px;
+
+background: #833177;
+border-radius: 10px;
+}
+.info-head h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+.drs-info{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+.doctors-para p{
+    margin-top: 53px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    /* opacity: 0.8; */
+}
+
+
+/* form of doctors */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form-fields{
+    display: flex;
+    gap: 30px;
+}
+.field-btm{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.message{
+    height: 100% !important;
+}
+
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.fields label{
+    font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+
+}
+.fields input::placeholder{
+ display: flex;
+
+    padding-left: 16px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+
+opacity: 0.5;
+}
+.fields input{
+    width:100%;
+    height: 54px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* select buttons */
+.select-btns{
+    display: flex;
+    gap: 30px;
+}
+#neodent-btn{
+    background: #833177;
+}
+#neodent-btn p{
+color: #FFFFFF;
+}
+.select-btntext{
+    width: 100%;
+height: 54px;
+border: 1px solid #833177;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.select-btntext p{
+    font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+
+color: #833177;
+
+}
+.ask-doctor{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+.ask-btn{
+    width: 273px;
+height: 54px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #833177;
+border-radius: 5px;
+}
+
+.ask-btn p{
+    font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+
+color: #FFFFFF;
+
+}
+
+
+
+
+
+/* carousels */
+
+.carousel-card img{
+
+width: 100%;
+
+}
+.carousel-item{
+    display: flex !important;
+}
+.carousel-item {
+  
+  
+    float: none !important;
+   
+    margin-right: unset !important;
+
+   
+}
+.carousel-control-prev-icon {
+    background-image:url(./Group\ 3793.png) !important;
+    position: absolute;
+    left: -22%;
+    width: 48px !important;
+    height:48px !important;
+  
+}
+.carousel-control-next-icon {
+    background-image:url(./Ellipse\ 47.png) !important;
+    display: inline-block;
+    width: 48px !important;
+    height:48px !important;
+    position: absolute;
+    right: -22%;
+}
+
+  
+.carousel-card p{
+  
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #833177;
+
+}
+.carousel-item.active{
+    background: #833177;
+    padding: 10px 10px 42px 10px;
+   
+    
+
+}
+.carousel-item.active p{
+    color: #FDF8FF;
+}
+
+.carousel-card{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.carousel-body{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+/*  */
+/* resources */
+.resource-bg{
+    background: #5D2354;
+}
+#resource-text h2{
+    color: #FFFFFF;
+}
+
+.resources-body{
+    padding-top: 80px;
+}
+.resource-cards{
+    padding: 82px 0 100px;
+}
+#border-left{
+    background: #FFFFFF;
+}
+.resource-content{
+    display: flex;
+    justify-content: space-between;
+}
+.arrows{
+    display: flex;
+    align-items: end;
+}
+
+.resource-img img{
+    width: 100%;
+
+}
+.resource-textbody{
+    display: flex;
+    justify-content: flex-end;
+}
+.resource-text{
+  padding: 19px 19px 12px;
+    width: 322px;
+height: 150px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+background: #F8F8F8;
+}
+.resource-info{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.para-info p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: #000000;
+
+}
+.resource-info h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  
+    
+    color: #823977;
+}
+
+/* image */
+
+.neodant-image img{
+    width: 100%;
+}
+
+
+
+/* desktop, mobile, ipad */
+
+@media screen and (max-width:576px){
+/* first section  */
+.choose-quality{
+ 
+ background-size: 100% 100%;
+   
+ }
+
+ 
+ .text-body{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 600px;
+     
+ }
+ .text-main{
+     display: flex;
+     justify-content: center;
+     gap: 12px;
+     flex-direction: column;
+ }
+ .button-images{
+     margin-top: 24px;
+ }
+ .text-main h2{
+   
+ font-size: 28px;
+ line-height: 30px;
+ 
+ 
+ }
+ .text-main h1{
+   
+ font-size: 30px;
+ line-height: 34px;
+ 
+ 
+ }
+
+ br{
+    display: none;
+ }
+ .text-main p{
+     font-weight: 500;
+ font-size: 20px;
+ line-height: 32px;
+ color: #FFFFFF;
+ 
+ }
+ 
+ 
+ .image-2{
+   
+     left: 10%;
+ }
+ .image-3{
+    
+     left: 20%;
+ }
+ .image-4{
+    
+     left: 30%;
+ }
+ 
+ .image-5{
+
+     left: 40%;
+    
+ }
+
+
+ /* section 2 */
+
+
+ /* Outstanding */
+
+.outstanding-img img{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.out-quality{
+    padding: 50px 0;
+}
+.head-text h2{
+  
+font-size: 28px;
+line-height: 36px;
+
+
+}
+.dental-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-head{
+    margin-bottom: 40px;
+}
+.bdr-left{
+    width: 6px;
+    height: 103.67px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.head-text{
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+
+}
+.main-content{
+  
+    gap: 30px;
+}
+.text{
+    padding:10px;
+}
+.text-2{
+    padding: 10px;
+}
+.text-2 p{
+   
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 0;
+   
+    
+}
+.text p{
+   
+font-size: 16px;
+line-height: 20px;
+
+}
+
+
+/* section 3 */
+/* neo buttons */
+
+.neo-btns-bg{
+    position: relative;
+
+}
+
+.neo-info{
+    padding-top: 450px;
+}
+#neo-content-info{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.btn-text p{
+
+font-size: 24px;
+line-height: 30px;
+
+}
+
+.btn-body{
+   
+   margin-top: 30px;
+}
+
+
+/* section 4 */
+/* neodent facts */
+
+
+.neofacts-bg{
+    background: linear-gradient(115.17deg, rgba(131, 49, 119, 0.25) 0.7%, rgba(131, 49, 119, 0.05) 100%);
+/* opacity: 0.8; */
+position: relative;
+}
+.neofacts-img img{
+   width: 100%;
+   
+}
+
+.neo-head{
+    margin-bottom: 40px;
+}
+.neofacts-content{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    margin-bottom: 50px;
+}
+
+.facts-img{
+   
+    padding:15px;
+   
+}
+.facts-text{
+    padding:20px 0 20px 123px;
+
+    width:300px;
+height:100%;
+}
+.facts-text p{
+   
+font-size: 14px;
+line-height: 16px;
+
+}
+
+
+/* section 5 */
+
+/* our top practitioners */
+.our-practitioners{
+ 
+   margin-top: 250px;
+   
+}
+
+.circle-image {
+display: none;
+}
+
+.right-circle{
+   display: none;
+}
+.ask-doctors{
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+.doctors-content{
+    position: relative;
+   
+}
+
+.doctors-img img{
+    width: 100%;
+}
+.neo-text h2{
+    font-size: 28px ;
+
+}
+.info-head h3{
+    
+    font-size: 30px;
+   
+}
+.drs-info{
+    margin-top: 20px;
+}
+
+
+
+/* form of doctors */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.form-fields{
+    display: block;
+ 
+}
+.field-btm{
+   
+    gap:0;
+  
+}
+
+.message{
+    height: 20vh !important;
+}
+
+
+.fields{
+   margin-bottom: 20px;
+}
+
+.fields input::placeholder{
+ 
+    padding-left: 8px;
+  
+font-size: 14px;
+}
+
+/* select buttons */
+
+.select-btntext p{
+  
+font-size: 14px;
+line-height: 22px;
+
+}
+
+
+
+
+
+
+
+/* carousels */
+
+.carousel-card img{
+
+width: 100%;
+
+}
+.carousel-item{
+    display: flex !important;
+}
+.carousel-item {
+  
+  
+    float: none !important;
+   
+    margin-right: unset !important;
+
+   
+}
+.carousel-control-prev-icon {
+   
+    left: 0;
+    
+  
+}
+.carousel-control-next-icon {
+
+    right: 0;
+}
+
+  
+
+.resource-card{
+margin-bottom: 30px;
+}
+
+
+}
+
+
+
+@media screen and (min-width:1280px ) and (max-width:1280px){
+    .neofacts-img{
+        right: unset;
+    }
+    .neofacts-img img{
+        width: 100%;
+    }
+    br{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px ) and (max-width:1024px){
+    .neofacts-img{
+        right: unset;
+        top: 30%;
+    }
+    .neofacts-img img{
+        width: 100%;
+    }
+    br{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:820px ) and (max-width:1180px){
+    .neofacts-img{
+       left: 0;
+    }
+    .out-quality{
+        display: block !important;
+    }
+    .neofacts-img img{
+        width: 100vw;
+    }
+    br{
+        display: none;
+    }
+}
